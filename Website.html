@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML CSS Website</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Navbar Section -->
+    <nav class="navbar">
+      <div class="navbar__container">
+        <!--<a href="/" id="navbar__logo"><i class="fas fa-gem"></i>NEXT</a>
+        <div class="navbar__toggle" id="mobile-menu">-->
+          <span class="bar"></span> <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="navbar__menu">
+          <li class="navbar__item">
+            <a href="/Website.html" class="navbar__links">Home</a>
+          </li>
+          <li class="navbar__item">
+            <a href="/tech.html" class="navbar__links">Tech</a>
+          </li>
+          <li class="navbar__item">
+            <a href="/projects.html" class="navbar__links">Works</a>
+          </li>
+          <li class="navbar__item">
+            <a href="/Exp-pro.html" class="navbar__links">Professional experience</a>
+          </li>
+          <li class="navbar__btn"><a href="#contact" class="button">Contact me</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="main">
+      <div class="main__container">
+        <div class="main__content">
+          <h1>Lola Schweyer</h1>
+          <!--<h2>TECHNOLOGY</h2>-->
+          <p>Student in computer science</p>
+          <button class="main__btn"><a href="/Exp-pro.html" class="button">Learn more about me</a></button>
+        </div>
+        <div class="main__img--container">
+          <img id="main__img" src="images/pic1.svg" />
+        </div>
+      </div>
+    </div>
+
+    <!-- Services Section -->
+    <div class="services">
+      <h1>Read up on some of my works</h1>
+      <div class="services__container">
+        <div class="services__card">
+          <div class="serv__img">
+            <img src="images/pic_code.svg" alt="someone sitting in front of a computer" class="section__img">
+          </div>
+          <h2>Development</h2>
+          <p>HTML, JavaScript and more!</p>
+          <button><a href="/projects.html" class="section__link">Get Started</a></button>
+        </div>
+        <div class="services__card">
+          <div class="serv__img">
+            <img src="images/pic_comp.svg" alt="stylised image of a network" class="section__img">
+          </div>
+          <h2>Network</h2>
+          <button><a href="/projects.html" class="section__link">Get Started</a></button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer Section -->
+    <div class="footer__container" id="contact">
+      <div class="footer__links">
+        <div class="footer__link--wrapper">
+          <div class="footer__link--items">
+            <h2>Contacts</h2>
+            <a href="/">Email: loschweyer@gmail.com</a> <a href="/https://www.linkedin.com/in/lola-schweyer-610781253/">LinkedIn: Lola Schweyer</a>
+            <a href="/">Phone: 06 79_____</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
